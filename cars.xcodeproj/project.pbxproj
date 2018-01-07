@@ -14,6 +14,15 @@
 		AB333C841FDF8B830022FAA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB333C821FDF8B830022FAA5 /* LaunchScreen.storyboard */; };
 		AB333C8F1FDF8B830022FAA5 /* carsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB333C8E1FDF8B830022FAA5 /* carsTests.swift */; };
 		AB333C9A1FDF8B830022FAA5 /* carsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB333C991FDF8B830022FAA5 /* carsUITests.swift */; };
+		AB333CA81FE056610022FAA5 /* FirstDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB333CA71FE056610022FAA5 /* FirstDataViewController.swift */; };
+		AB333CAA1FE056C40022FAA5 /* carmodel.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB333CA91FE056C40022FAA5 /* carmodel.plist */; };
+		AB333CAC1FE057CB0022FAA5 /* SecondDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB333CAB1FE057CB0022FAA5 /* SecondDataViewController.swift */; };
+		AB333CAE1FE0A5F60022FAA5 /* brand.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB333CAD1FE0A5F60022FAA5 /* brand.plist */; };
+		AB333CB01FE0A61A0022FAA5 /* model.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB333CAF1FE0A61A0022FAA5 /* model.plist */; };
+		AB8F71031FE4F853003F2076 /* usedcars.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AB8F71021FE4F853003F2076 /* usedcars.mlmodel */; };
+		ABD5ECA21FEAE818004085D2 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD5ECA11FEAE818004085D2 /* Price.swift */; };
+		ABD5ECA41FEB0DCE004085D2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD5ECA31FEB0DCE004085D2 /* ListViewController.swift */; };
+		ABD5ECA81FEB916E004085D2 /* home.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABD5ECA71FEB916E004085D2 /* home.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		AB333C951FDF8B830022FAA5 /* carsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB333C991FDF8B830022FAA5 /* carsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carsUITests.swift; sourceTree = "<group>"; };
 		AB333C9B1FDF8B830022FAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB333CA71FE056610022FAA5 /* FirstDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDataViewController.swift; sourceTree = "<group>"; };
+		AB333CA91FE056C40022FAA5 /* carmodel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = carmodel.plist; sourceTree = "<group>"; };
+		AB333CAB1FE057CB0022FAA5 /* SecondDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondDataViewController.swift; sourceTree = "<group>"; };
+		AB333CAD1FE0A5F60022FAA5 /* brand.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = brand.plist; sourceTree = "<group>"; };
+		AB333CAF1FE0A61A0022FAA5 /* model.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = model.plist; sourceTree = "<group>"; };
+		AB8F71021FE4F853003F2076 /* usedcars.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = usedcars.mlmodel; sourceTree = "<group>"; };
+		ABD5ECA11FEAE818004085D2 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		ABD5ECA31FEB0DCE004085D2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		ABD5ECA71FEB916E004085D2 /* home.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,8 @@
 		AB333C6D1FDF8B820022FAA5 = {
 			isa = PBXGroup;
 			children = (
+				AB8F71021FE4F853003F2076 /* usedcars.mlmodel */,
+				ABD5ECA71FEB916E004085D2 /* home.jpeg */,
 				AB333C781FDF8B830022FAA5 /* cars */,
 				AB333C8D1FDF8B830022FAA5 /* carsTests */,
 				AB333C981FDF8B830022FAA5 /* carsUITests */,
@@ -100,7 +120,14 @@
 				AB333C791FDF8B830022FAA5 /* AppDelegate.swift */,
 				AB333C7B1FDF8B830022FAA5 /* ViewController.swift */,
 				AB333C7D1FDF8B830022FAA5 /* Main.storyboard */,
+				AB333CAB1FE057CB0022FAA5 /* SecondDataViewController.swift */,
+				ABD5ECA11FEAE818004085D2 /* Price.swift */,
+				ABD5ECA31FEB0DCE004085D2 /* ListViewController.swift */,
+				AB333CA71FE056610022FAA5 /* FirstDataViewController.swift */,
 				AB333C801FDF8B830022FAA5 /* Assets.xcassets */,
+				AB333CA91FE056C40022FAA5 /* carmodel.plist */,
+				AB333CAD1FE0A5F60022FAA5 /* brand.plist */,
+				AB333CAF1FE0A61A0022FAA5 /* model.plist */,
 				AB333C821FDF8B830022FAA5 /* LaunchScreen.storyboard */,
 				AB333C851FDF8B830022FAA5 /* Info.plist */,
 			);
@@ -232,9 +259,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD5ECA81FEB916E004085D2 /* home.jpeg in Resources */,
 				AB333C841FDF8B830022FAA5 /* LaunchScreen.storyboard in Resources */,
 				AB333C811FDF8B830022FAA5 /* Assets.xcassets in Resources */,
+				AB333CAE1FE0A5F60022FAA5 /* brand.plist in Resources */,
 				AB333C7F1FDF8B830022FAA5 /* Main.storyboard in Resources */,
+				AB333CB01FE0A61A0022FAA5 /* model.plist in Resources */,
+				AB333CAA1FE056C40022FAA5 /* carmodel.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +291,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB333C7C1FDF8B830022FAA5 /* ViewController.swift in Sources */,
+				AB333CA81FE056610022FAA5 /* FirstDataViewController.swift in Sources */,
+				AB8F71031FE4F853003F2076 /* usedcars.mlmodel in Sources */,
 				AB333C7A1FDF8B830022FAA5 /* AppDelegate.swift in Sources */,
+				AB333CAC1FE057CB0022FAA5 /* SecondDataViewController.swift in Sources */,
+				ABD5ECA21FEAE818004085D2 /* Price.swift in Sources */,
+				ABD5ECA41FEB0DCE004085D2 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
